@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/build/tailwind.css" />
+    <title>Google Clone</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="flex justify-between">
+      <div class="left flex items-center text-xs">
+        <a class="block p-4 text-opacity-75" href="#">About</a>
+        <a class="block p-4 text-opacity-75" href="#">Store</a>
+      </div>
+      <div class="right flex items-center text-xs">
+        <a class="block p-4 text-opacity-75" href="#">Gmail</a>
+        <a class="block p-4 text-opacity-75" href="#">Images</a>
+        <img
+          class="w-8 h-8 rounded-full block mr-4"
+          src="/images/sam copy.png"
+          alt="avatar"
+        />
+      </div>
+    </header>
+    <!-- MAIN -->
+    <div class="google-logo flex justify-center pt-40">
+      <div>
+        <img
+          class="w-2/3 mr-auto ml-auto"
+          class="mb-10"
+          src="https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+          alt="google logo"
+        />
+
+        <div
+          class="input-field flex border border-gray-200 rounded-full p-2 justify-between shaddow text-lg mt-10"
+        >
+          <div class="pl-2">✍️</div>
+          <input class="w-full px-3 outline-none" type="text" />
+          <!-- <div>🎤</div> -->
+        </div>
+        <div class="btn text-center mt-8 text-sm">
+          <button
+            class="mr-3 border border-grey-300 bg-gray-200 px-4 py-2 rounded text-gray-800 hover:border-8 hover:border-gray-500"
+          >
+            Google Search
+          </button>
+          <button
+            class="border border-grey-300 bg-gray-200 px-4 py-2 rounded text-gray-800 hover:border-8 hover:border-gray-500"
+          >
+            I'm Feeling Lucky
+          </button>
+        </div>
+        <div class="translate text-center mt-6 text-xs">
+          <span
+            >Google offered in:
+            <a class="pl-2 text-blue-900" href="#">Français</a></span
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="fixed bottom-0 w-full text-sm">
+      <div
+        class="location bg-gray-300 w-full pl-6 py-3 border-b border-gray-400 text-gray-600"
+      >
+        <span>Canada</span>
+      </div>
+      <div
+        class="settings location bg-gray-300 flex justify-between bg-gray-300 w-full pl-6 py-3 text-gray-700"
+      >
+        <div class="left-side">
+          <span class="mr-6"><a href="#">Advertising</a> </span>
+          <span class="mr-6"><a href="#">Business</a></span>
+          <span class="mr-6"><a href="#">How Search works</a></span>
+        </div>
+        <div class="right-side">
+          <span class="mr-6"><a href="#">Privacy</a></span>
+          <span class="mr-6"><a href="#">Terms</a></span>
+          <span class="mr-6"><a href="#">Settings</a></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
